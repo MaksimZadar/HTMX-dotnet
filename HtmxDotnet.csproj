@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Htmx" Version="1.6.1" />
+    <PackageReference Include="Htmx.TagHelpers" Version="1.6.1" />
+  </ItemGroup>
+
 </Project>
