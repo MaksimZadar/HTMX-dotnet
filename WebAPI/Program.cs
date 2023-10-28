@@ -1,8 +1,13 @@
+using RazorViews;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddRazorPages();
+builder.Services.AddTransient<IRazorViewToStringRenderer, RazorViewToStringRenderer>();
 
 var app = builder.Build();
 
