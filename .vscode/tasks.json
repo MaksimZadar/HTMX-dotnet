@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "watch HtmxDotnet",
+			"file": "E:\\Coding\\Projects\\HtmxDotnet\\HtmxDotnet.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "dotnet: watch HtmxDotnet"
+		}
+	]
+}
